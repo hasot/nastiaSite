@@ -7,16 +7,28 @@ body{
     -o-background-size: 100%;
     background-size: 100%;
 }
-.text-center{
-    font-family: drugs-thin;
-    color: white;
+div{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    font-size: 2em;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    .contener{
+        font-family: drugs-thin;
+        color: white;
+        position: relative;
+        height: 100%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        font-size: 2em;
+    }
+    
 }
+
 .animation {
     animation-duration: 0.90s;  /* Время работы анимации */
     animation-fill-mode: both;  /* Поведение анимации */
@@ -25,6 +37,7 @@ body{
   @keyframes fadeInDown { /* Сама анимация */
     0% {                /* Старт анимации */
         opacity: 0;
+        transform: translate(0px, 50px);
     }
     25% {              /* в финале анимации - финал это заданная 0.55s */
         opacity: 0.2;

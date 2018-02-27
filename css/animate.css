@@ -1,0 +1,33 @@
+.animate {
+  transition: 1000ms ease-in-out; }
+
+.animate-left-show {
+  transition: 1000ms ease-in-out;
+  transform: translate(-100px, 0);
+  opacity: 0;
+  visibility: hidden; }
+
+.animate-left-show.active {
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible; }
+
+.animate-show {
+  transition: 800ms ease-in-out;
+  opacity: 0.0;
+  visibility: hidden; }
+
+.animate-show.active {
+  transform: translate(0px, 0px);
+  opacity: 1;
+  visibility: visible; }
+
+.animate-bottom-show {
+  transform: translate(0, 100px);
+  opacity: 0;
+  visibility: hidden; }
+
+.animate-bottom-show.active {
+  transform: translate(0, 0);
+  opacity: 1;
+  visibility: visible; }
