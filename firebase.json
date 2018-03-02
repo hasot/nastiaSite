@@ -2,6 +2,11 @@
     "hosting": {
       "public": "",
       "rewrites": [
+      ],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
       ]
     }
   }
