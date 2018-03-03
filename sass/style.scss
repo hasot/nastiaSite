@@ -2,7 +2,7 @@
 @import "vans";
 
 body{
-
+    font-family: drugs-thin;
 }
 header{
     background-color: rgba(00,00,00, 0);
@@ -24,6 +24,8 @@ header{
         }
         a{
             font-size: 1.1em !important;
+            color: white;
+            font-weight:bold;
             display:inline-block;
             margin-top: 15px;
             margin-right: 30px;  
@@ -35,14 +37,14 @@ header{
 
 }
 .main{
-    background: url(../image/mainBack.jpg) 100% 100% no-repeat; /* Добавляем фон */
+    background: url(../image/mainBack.jpg) 90% 90% no-repeat; /* Добавляем фон */
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: cover;
 }
 .portfolio{
-    background: url(../image/portfolioBack.jpg) 100% 100% no-repeat; 
+    background: url(../image/portfolioBack.jpg) 0% 0% no-repeat; 
     -moz-background-size: 100%;
     -webkit-background-size: 100%;
     -o-background-size: 100%;
@@ -51,7 +53,6 @@ header{
     width: 100%;
     background-color: #000000;
     .contener{
-        font-family: drugs-thin;
         color: white;
         position: relative;
         font-weight:bold;
@@ -83,7 +84,6 @@ header{
     right: 0px;
     text-align: center;
     .contener{
-        font-family: drugs-thin;
         color: white;
         position: relative;
         height: 100%;
