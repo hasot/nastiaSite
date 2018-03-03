@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
   font-family: drugs-thin;
-  src: url(../fonts/drugs-thin.otf); }
+  src: url("fonts/drugs-thin.otf"); }
 
 body {
   font-family: drugs-thin; }
@@ -24,12 +24,16 @@ header {
     header .headdiv .left {
       margin-left: 0; }
     header .headdiv a {
-      font-size: 1.1em !important;
+      text-decoration: none;
+      font-size: 1em !important;
       color: white;
       font-weight: bold;
       display: inline-block;
       margin-top: 15px;
-      margin-right: 30px; }
+      margin-right: 30px;
+      margin-bottom: 4px; }
+    header .headdiv a:hover {
+      color: #808080; }
     header .headdiv .right {
       margin-right: 20px; }
 
@@ -60,12 +64,18 @@ header {
     margin: auto;
     width: 300px;
     font-size: 0.8em !important; }
+    .portfolio .contener a {
+      text-decoration: none;
+      color: white;
+      border: 1.5px solid white; }
+    .portfolio .contener a:hover {
+      color: #808080;
+      border: 1.5px solid #808080; }
     .portfolio .contener .button {
       height: 50px;
-      width: 250px;
+      width: 230px;
       margin-top: 20px;
-      border: 1.5px solid #808080;
-      font-size: 2em !important;
+      font-size: 1.5em !important;
       display: table; }
       .portfolio .contener .button span {
         display: table-cell;
