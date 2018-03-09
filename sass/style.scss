@@ -53,9 +53,10 @@ header{
     -webkit-background-size: 100%;
     -o-background-size: 100%;
     background-size: cover;
-    height: 300px;
+    height: 400px;
     width: 100%;
     background-color: #000000;
+ 
     .contener{
         color: white;
         position: relative;
@@ -65,21 +66,19 @@ header{
         flex-direction: column;
         margin: auto;
         width: 300px;
-        font-size: 0.8em !important;
+        font-size: 1em !important;
         a{
             text-decoration: none;
             color: white;
-            border: 1.5px solid white;
         }
-        a:hover {
+        a:hover { 
             color: $color_line;
-            border: 1.5px solid $color_line;
         }
         .button{
             height: 50px;
             width: 230px;
             margin-top: 20px;
-            
+            border: 1.5px solid;
             font-size: 1.5em !important;
             display: table;
             span{
@@ -87,6 +86,50 @@ header{
                 vertical-align: middle;
             }
         }
+    }
+}
+
+.services{
+    height: 300px;
+    width: 100%;
+    color: white;
+    position: relative;
+    float: left;
+    white-space:nowrap;
+    font-weight:bold;
+    .one{   background: url(../image/one.jpg) 90% 90% no-repeat;}
+    .two{   background: url(../image/two.jpg) 90% 90% no-repeat;}
+    .three{ background: url(../image/three.jpg) 90% 90% no-repeat;}
+    .four{  background: url(../image/four.jpg) 90% 90% no-repeat;}
+    .five{  background: url(../image/five.jpg) 90% 90% no-repeat;}
+    .six{   background: url(../image/six.jpg) 90% 90% no-repeat;}
+     .pos{
+        height: 100%;
+        min-width: 300px;
+        width: 33.3%;
+        float: left;
+        margin-right: 0;
+        padding: 0;
+        -moz-background-size: 100%;
+        -webkit-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: cover;
+    }
+    .first_block {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width:100%;
+        height:100%;
+    }
+    .second_block {
+        display: none;
+    }
+    .first_block:hover .second_block {
+        display: block;
+    }
+    .first_block:hover .a {
+        display: none;
     }
 }
 .text{
