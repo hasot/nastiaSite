@@ -46,14 +46,9 @@ header {
   background-size: cover; }
 
 .portfolio {
-  background: url(../image/portfolioBack.jpg) 0% 0% no-repeat;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: cover;
+  background-color: #0d2a33;
   height: 400px;
-  width: 100%;
-  background-color: #000000; }
+  width: 100%; }
   .portfolio .contener {
     color: white;
     position: relative;
@@ -62,7 +57,7 @@ header {
     justify-content: center;
     flex-direction: column;
     margin: auto;
-    width: 300px;
+    width: 400px;
     font-size: 1em !important; }
     .portfolio .contener a {
       text-decoration: none;
@@ -73,6 +68,7 @@ header {
       height: 50px;
       width: 230px;
       margin-top: 20px;
+      margin-bottom: 10px;
       border: 1.5px solid;
       font-size: 1.5em !important;
       display: table; }
@@ -80,52 +76,78 @@ header {
         display: table-cell;
         vertical-align: middle; }
 
-.insta:hover {
-  color: red; }
+.margin {
+  margin-top: 20px; }
+  .margin .right {
+    margin-right: 20px; }
 
-.services {
-  height: 300px;
-  width: 100%;
-  color: white;
-  position: relative;
-  float: left;
-  white-space: nowrap;
-  font-weight: bold; }
-  .services .one {
-    background: url(../image/one.jpg) 90% 90% no-repeat; }
-  .services .two {
-    background: url(../image/two.jpg) 90% 90% no-repeat; }
-  .services .three {
-    background: url(../image/three.jpg) 90% 90% no-repeat; }
-  .services .four {
-    background: url(../image/four.jpg) 90% 90% no-repeat; }
-  .services .five {
-    background: url(../image/five.jpg) 90% 90% no-repeat; }
-  .services .six {
-    background: url(../image/six.jpg) 90% 90% no-repeat; }
-  .services .pos {
-    height: 100%;
-    min-width: 300px;
-    width: 33.3%;
-    float: left;
-    margin-right: 0;
-    padding: 0;
-    -moz-background-size: 100%;
-    -webkit-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: cover; }
-  .services .first_block {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+.center {
+  height: 600px;
+  background-color: #0d2a33; }
+  .center .services {
+    height: 300px;
     width: 100%;
-    height: 100%; }
-  .services .second_block {
-    display: none; }
-  .services .first_block:hover .second_block {
-    display: block; }
-  .services .first_block:hover .a {
-    display: none; }
+    color: white;
+    position: relative;
+    float: left;
+    white-space: nowrap;
+    font-weight: bold; }
+    .center .services .one {
+      background: url(../image/one.jpg) 90% 90% no-repeat; }
+    .center .services .two {
+      background: url(../image/two.jpg) 90% 90% no-repeat; }
+    .center .services .three {
+      background: url(../image/three.jpg) 90% 90% no-repeat; }
+    .center .services .four {
+      background: url(../image/four.jpg) 90% 90% no-repeat; }
+    .center .services .five {
+      background: url(../image/five.jpg) 90% 90% no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto; }
+      .center .services .five a {
+        text-decoration: none;
+        color: white; }
+      .center .services .five a:hover {
+        color: #808080; }
+      .center .services .five .button {
+        height: 50px;
+        width: 230px;
+        margin-top: 10px;
+        border: 1.5px solid;
+        font-size: 1.5em !important;
+        display: table; }
+        .center .services .five .button span {
+          display: table-cell;
+          vertical-align: middle; }
+    .center .services .six {
+      background: url(../image/six.jpg) 90% 90% no-repeat; }
+    .center .services .pos {
+      height: 100%;
+      min-width: 300px;
+      width: 33.3%;
+      float: left;
+      margin-right: 0;
+      padding: 0;
+      -moz-background-size: 100%;
+      -webkit-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: cover; }
+    .center .services .first_block {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-size: 1.5em;
+      width: 100%;
+      height: 100%; }
+    .center .services .second_block {
+      display: none;
+      font-size: 0.9em; }
+    .center .services .first_block:hover .second_block {
+      display: block; }
+    .center .services .first_block:hover .a {
+      display: none; }
 
 .text {
   position: absolute;
